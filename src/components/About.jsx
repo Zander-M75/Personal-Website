@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
+import { ScrollingTicker } from './ScrollingTicker';
 
 const quickFacts = [
   { label: 'Location', value: 'Chatham, NJ' },
@@ -9,6 +10,21 @@ const quickFacts = [
   { label: 'Interests', value: 'NHL, Drones, Pickleball' },
   { label: 'Currently', value: 'Building portfolio, new projects' },
   { label: 'Email', value: 'zander@example.com', link: 'mailto:zander@example.com' },
+];
+
+const talkToMeAbout = [
+  'NHL Analytics',
+  'Sports Card Collecting',
+  'Drone Photography',
+  'Pickleball Strategy',
+  'Web Development',
+  'Data Visualization',
+  'React & Tailwind',
+  'New Jersey Devils',
+  'Aerial Cinematography',
+  'Business Analytics',
+  'UI/UX Design',
+  'Tech Startups',
 ];
 
 export const About = () => {
@@ -116,6 +132,19 @@ export const About = () => {
               </a>
             </motion.div>
           </div>
+        </motion.div>
+
+        {/* Talk to Me About - Scrolling Ticker */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+          transition={{ duration: 0.6, delay: 0.6 }}
+          className="mt-16"
+        >
+          <h3 className="text-2xl font-display font-bold text-center mb-4">
+            Talk to me about...
+          </h3>
+          <ScrollingTicker items={talkToMeAbout} speed={35} />
         </motion.div>
       </div>
     </section>
