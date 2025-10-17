@@ -13,18 +13,29 @@ const quickFacts = [
 ];
 
 const talkToMeAbout = [
-  'NHL Analytics',
-  'Sports Card Collecting',
-  'Drone Photography',
-  'Pickleball Strategy',
-  'Web Development',
-  'Data Visualization',
-  'React & Tailwind',
-  'New Jersey Devils',
-  'Aerial Cinematography',
-  'Business Analytics',
-  'UI/UX Design',
-  'Tech Startups',
+ 'The New York Rangers',
+ 'NHL Salary Cap Strategy',
+ 'Fantasy Football',
+ 'FIFA Ultimate Team',
+ 'Sports Analytics',
+ 'Data Visualization',
+ 'Tech Startups & Product Ideas',
+ 'Web Development & React Projects',
+ 'AI Tools & Automation',
+ 'The New York Jets',
+ 'Aresenal FC',
+ 'Entrepreneurship',
+ 'Day Trading',
+ 'XRP',
+ 'Pickleball',
+ 'Drone Photography',
+ 'Lacrosse',
+ 'Weightlifting',
+ 'Motivation & Self-Improvement'
+
+
+
+
 ];
 
 export const About = () => {
