@@ -14,12 +14,12 @@ const quickFacts = [
 
 const talkToMeAbout = [
  'The New York Rangers',
- 'NHL Salary Cap Strategy',
  'Fantasy Football',
  'FIFA Ultimate Team',
  'Sports Analytics',
  'Mustangs',
  'Data Visualization',
+ 'NHL Salary Cap Strategy',
  'Tech Startups & Product Ideas',
  'Web Development & React Projects',
  'AI Tools & Automation',

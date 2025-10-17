@@ -3,32 +3,28 @@ import { motion, useInView } from 'framer-motion';
 
 const milestones = [
   {
-    date: 'Jan 2023',
+    date: 'Sep 2023',
     title: 'Started Playing',
     description: 'Picked up a paddle for the first time',
   },
   {
-    date: 'Jun 2023',
-    title: 'First Tournament',
-    description: 'Competed in local doubles tournament',
+    date: 'Apr 2024 - Aug 2025',
+    title: 'Regular Play & Moving Up the Ranks',
+    description: 'Competed with the best players in the area',
   },
+  
   {
-    date: 'Dec 2023',
-    title: 'Reached 4.0 Rating',
-    description: 'Official rating milestone achieved',
-  },
-  {
-    date: 'Aug 2024',
-    title: 'Tournament Win',
-    description: 'First place in regional doubles',
+    date: 'Sep 2025',
+    title: 'First Official Tournament Win',
+    description: 'First place in regional mixed doubles',
   },
 ];
 
 const stats = [
-  { label: 'Current Rating', value: '4.0' },
+  { label: 'Current DUPR Rating', value: '3.3' },
   { label: 'Matches Played', value: '150+' },
   { label: 'Win Rate', value: '68%' },
-  { label: 'Tournaments', value: '12' },
+  { label: 'Tournament Championships', value: '1' },
 ];
 
 export const Pickleball = () => {
@@ -153,14 +149,7 @@ export const Pickleball = () => {
           transition={{ duration: 0.6, delay: 0.7 }}
           className="text-center"
         >
-          <a
-            href="https://instagram.com/zandermarenberg"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-mint hover:underline font-medium"
-          >
-            Follow my pickleball journey on Instagram →
-          </a>
+         
         </motion.div>
       </div>
     </section>

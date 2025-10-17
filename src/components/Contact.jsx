@@ -4,19 +4,19 @@ import { motion, useInView } from 'framer-motion';
 const contactLinks = [
   {
     name: 'Email',
-    href: 'mailto:zander@example.com',
+    href: 'mailto:marenberg.zander@gmail.com',
     icon: '✉️',
-    description: 'zander@example.com',
+    description: 'marenberg.zander@gmail.com',
   },
   {
     name: 'LinkedIn',
-    href: 'https://linkedin.com/in/zandermarenberg',
+    href: 'https://www.linkedin.com/in/zander-marenberg/',
     icon: '💼',
     description: 'Professional network',
   },
   {
     name: 'GitHub',
-    href: 'https://github.com/zandermarenberg',
+    href: 'https://github.com/Zander-M75',
     icon: '💻',
     description: 'Code & projects',
   },
@@ -28,9 +28,9 @@ const contactLinks = [
   },
   {
     name: 'Instagram',
-    href: 'https://instagram.com/zandermarenberg',
+    href: 'https://www.instagram.com/zander_m75/',
     icon: '📸',
-    description: 'Drone & pickleball',
+    description: 'Rarely on here',
   },
 ];
 

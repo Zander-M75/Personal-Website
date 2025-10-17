@@ -8,7 +8,7 @@ const techStack = [
   'Tailwind',
   'Python',
   'JavaScript',
-  'GSAP',
+  'Excel',
 ];
 
 const container = {
