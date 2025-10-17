@@ -56,7 +56,7 @@ export const Hero = () => {
             className="text-4xl md:text-6xl lg:text-7xl font-display font-bold leading-tight mb-6 text-balance"
           >
             Hey, I'm{' '}
-            <span className="text-mint">Zander Marenberg</span> — I build with
+            <span className="text-mint">Zander</span> — I build with
             code, data, and a drone.
           </motion.h1>
 

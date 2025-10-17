@@ -4,12 +4,12 @@ import { useRef } from 'react';
 import { ScrollingTicker } from './ScrollingTicker';
 
 const quickFacts = [
-  { label: 'Location', value: 'Chatham, NJ' },
+  { label: 'Location', value: 'NJ' },
   { label: 'Focus', value: 'Data + Web' },
-  { label: 'Tools', value: 'React, Vite, Tailwind, SQL, R, Tableau' },
-  { label: 'Interests', value: 'NHL, Drones, Pickleball' },
-  { label: 'Currently', value: 'Building portfolio, new projects' },
-  { label: 'Email', value: 'zander@example.com', link: 'mailto:zander@example.com' },
+  { label: 'Tools', value: 'React, Vite, Tailwind, SQL, R, Tableau, Excel' },
+  { label: 'Education', value: 'Rutgers University' },
+  { label: 'Currently', value: 'Building new projects, seeking new opportunities' },
+  { label: 'Email', value: 'marenberg.zander@gmail.com', link: 'mailto:marenberg.zander@gmail.com' },
 ];
 
 const talkToMeAbout = [
@@ -85,14 +85,7 @@ export const About = () => {
                 About
               </h2>
               <p className="text-lg leading-relaxed text-navy/80 dark:text-offwhite/80">
-                Hi, I'm Zander — a NJ-based builder who loves turning ideas into
-                clean, practical products. I studied Business at Rutgers, completed
-                a full-stack coding bootcamp, and recently doubled down on data
-                analytics. I split my time between web projects, sports analytics
-                (NHL cap dashboards are my jam), and creative work like aerial drone
-                photography. I care about clear UX, tidy code, and work that ships.
-                When I'm not iterating on a build, you'll probably find me on a
-                pickleball court.
+              Hi, I’m Zander — a New Jersey–based builder who loves bringing ideas to life across business, tech, and creativity. I studied Finance and Entrepreneurship at Rutgers, completed a full-stack coding bootcamp, and recently dove deep into data analytics. My work spans web projects, sports data dashboards, and creative outlets like aerial drone photography. I care about solving real problems, designing clear user experiences, and creating things that make an impact. When I’m not working on a build, you’ll probably find me on a pickleball court.
               </p>
             </motion.div>
 
@@ -134,7 +127,7 @@ export const About = () => {
               transition={{ duration: 0.6, delay: 0.5 }}
             >
               <a
-                href="/resume.pdf"
+                href="/Zander-Marenberg-Resume-2025.pdf"
                 download
                 className="inline-flex items-center gap-2 px-6 py-3 bg-navy dark:bg-offwhite text-offwhite dark:text-navy font-semibold rounded-lg hover:opacity-90 transition-all"
               >
