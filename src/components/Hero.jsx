@@ -55,9 +55,9 @@ export const Hero = () => {
             variants={item}
             className="text-4xl md:text-6xl lg:text-7xl font-display font-bold leading-tight mb-6 text-balance"
           >
-            Hey, I'm{' '}
-            <span className="text-mint">Zander</span> — I build with
-            code, data, and a drone.
+            
+            Hey, I’m{' '} <span className="text-mint">Zander</span> — I turn data, design, and curiosity into work that’s meant to be used.{' '}
+            
           </motion.h1>
 
           {/* Subheadline */}
@@ -65,7 +65,7 @@ export const Hero = () => {
             variants={item}
             className="text-lg md:text-xl text-navy/70 dark:text-offwhite/70 mb-8 max-w-2xl mx-auto"
           >
-            Web Developer & Data Analyst in NJ. Sports fan, builder, and creator.
+            From web apps to dashboards to creative builds.
           </motion.p>
 
           {/* CTA Buttons */}

@@ -18,6 +18,7 @@ const talkToMeAbout = [
  'Fantasy Football',
  'FIFA Ultimate Team',
  'Sports Analytics',
+ 'Mustangs',
  'Data Visualization',
  'Tech Startups & Product Ideas',
  'Web Development & React Projects',
