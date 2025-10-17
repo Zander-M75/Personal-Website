@@ -129,17 +129,26 @@ export const Pickleball = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.6, delay: 0.6 }}
-          className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8"
+          className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-8 max-w-3xl mx-auto"
         >
-          {[1, 2, 3, 4].map((i) => (
-            <div
-              key={i}
-              className="aspect-square rounded-xl bg-gradient-to-br from-mint/20 to-navy/20 shadow-lg overflow-hidden flex items-center justify-center"
-            >
-              <div className="text-4xl">🏓</div>
-              {/* Replace with actual images */}
-            </div>
-          ))}
+          {/* First image - actual photo */}
+          <div className="aspect-square rounded-xl bg-gradient-to-br from-mint/20 to-navy/20 shadow-lg overflow-hidden">
+            <img 
+              src="/images/pickleball/pickleball_tournament_win_1.jpg" 
+              alt="Pickleball tournament win" 
+              className="w-full h-full object-cover" 
+            />
+          </div>
+          
+          {/* Placeholder 1 */}
+          <div className="aspect-square rounded-xl bg-gradient-to-br from-mint/20 to-navy/20 shadow-lg overflow-hidden flex items-center justify-center">
+            <div className="text-4xl">🏓</div>
+          </div>
+          
+          {/* Placeholder 2 */}
+          <div className="aspect-square rounded-xl bg-gradient-to-br from-mint/20 to-navy/20 shadow-lg overflow-hidden flex items-center justify-center">
+            <div className="text-4xl">🏓</div>
+          </div>
         </motion.div>
 
         {/* CTA */}
