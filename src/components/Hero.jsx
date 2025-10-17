@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { FloatingElements } from './FloatingElements';
 
 const techStack = [
   'React',
@@ -42,6 +43,9 @@ export const Hero = () => {
     >
       {/* Background Gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-mint/5 via-transparent to-navy/5 dark:from-mint/10 dark:to-navy/20" />
+      
+      {/* Floating Background Elements */}
+      <FloatingElements />
 
       <div className="container-width relative z-10 px-6 md:px-8">
         <motion.div
