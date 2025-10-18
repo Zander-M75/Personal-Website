@@ -4,45 +4,45 @@ import { motion, useInView, AnimatePresence } from 'framer-motion';
 const dronePhotos = [
   {
     id: 1,
-    title: 'Sunset Over the Hudson',
-    location: 'Hudson River, NJ',
+    title: 'Cloudy Day on the Lenape Trail',
+    location: 'Lenape Trail, NJ',
     date: 'Oct 2024',
-    thumbnail: null,
+    thumbnail: '/images/drone/lenape.jpg',
   },
   {
     id: 2,
-    title: 'Chatham Downtown',
-    location: 'Chatham, NJ',
-    date: 'Sep 2024',
-    thumbnail: null,
+    title: 'Wildwood Sunrise',
+    location: 'Wildwood, NJ',
+    date: 'Aug 2025',
+    thumbnail: '/images/drone/wildwood.jpg',
   },
   {
     id: 3,
-    title: 'Fall Foliage',
-    location: 'Morris County, NJ',
-    date: 'Oct 2024',
-    thumbnail: null,
+    title: 'Paddle Boarding in the Round Valley Reservoir',
+    location: 'Round Valley Reservoir, NJ',
+    date: 'Jun 2024',
+    thumbnail: '/images/drone/round-valley.jpg',
   },
   {
     id: 4,
-    title: 'Beach Aerial',
-    location: 'Jersey Shore',
+    title: 'Secret Path in the woods',
+    location: 'Watchung Reservation, NJ',
     date: 'Aug 2024',
-    thumbnail: null,
+    thumbnail: '/images/drone/secret-path.jpg',
   },
   {
     id: 5,
-    title: 'City Skyline',
-    location: 'NYC',
+    title: 'Lieder Field at New Providence High School',
+    location: 'New Providence, NJ',
     date: 'Jul 2024',
-    thumbnail: null,
+    thumbnail: '/images/drone/new-prov-turf.jpg',
   },
   {
     id: 6,
-    title: 'Mountain Vista',
-    location: 'Northern NJ',
+    title: 'Sunset over Belmar',
+    location: 'Belmar, NJ',
     date: 'Sep 2024',
-    thumbnail: null,
+    thumbnail: '/images/drone/belmar.jpg',
   },
 ];
 
@@ -67,14 +67,15 @@ export const Drone = () => {
           <p className="text-lg text-navy/70 dark:text-offwhite/70 mb-6">
             Capturing perspectives from above — landscapes, cityscapes, and everything in between.
           </p>
-          <a
+          {/* Instagram Option for Later */}
+          {/* <a
             href="https://instagram.com/zandermarenberg"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-mint hover:underline font-medium"
           >
             View Full Gallery on Instagram →
-          </a>
+          </a> */}
         </motion.div>
 
         {/* Photo Grid */}
@@ -103,16 +104,17 @@ export const Drone = () => {
               onClick={() => setSelectedPhoto(photo)}
             >
               <div className="absolute inset-0 bg-gradient-to-br from-mint/30 to-navy/30 group-hover:opacity-80 transition-opacity flex items-center justify-center">
-                <div className="text-6xl font-bold text-white/20">
-                  {photo.location.charAt(0)}
-                </div>
-                {/* Uncomment when you have images:
-                <img
-                  src={photo.thumbnail}
-                  alt={photo.title}
-                  className="w-full h-full object-cover"
-                />
-                */}
+                {photo.thumbnail ? (
+                  <img
+                    src={photo.thumbnail}
+                    alt={photo.title}
+                    className="w-full h-full object-cover"
+                  />
+                ) : (
+                  <div className="text-6xl font-bold text-white/20">
+                    {photo.location.charAt(0)}
+                  </div>
+                )}
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-navy/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end">
                 <div className="p-4 text-white">
@@ -150,16 +152,17 @@ export const Drone = () => {
                   ×
                 </button>
                 <div className="aspect-video bg-gradient-to-br from-mint/30 to-navy/30 rounded-xl overflow-hidden shadow-2xl flex items-center justify-center">
-                  <div className="text-8xl font-bold text-white/20">
-                    {selectedPhoto.location.charAt(0)}
-                  </div>
-                  {/* Uncomment when you have images:
-                  <img
-                    src={selectedPhoto.thumbnail}
-                    alt={selectedPhoto.title}
-                    className="w-full h-full object-contain"
-                  />
-                  */}
+                  {selectedPhoto.thumbnail ? (
+                    <img
+                      src={selectedPhoto.thumbnail}
+                      alt={selectedPhoto.title}
+                      className="w-full h-full object-contain"
+                    />
+                  ) : (
+                    <div className="text-8xl font-bold text-white/20">
+                      {selectedPhoto.location.charAt(0)}
+                    </div>
+                  )}
                 </div>
                 <div className="mt-4 text-center text-white">
                   <h3 className="text-2xl font-bold mb-2">{selectedPhoto.title}</h3>

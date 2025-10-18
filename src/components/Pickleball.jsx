@@ -16,7 +16,7 @@ const milestones = [
   {
     date: 'Sep 2025',
     title: 'First Official Tournament Win',
-    description: 'First place in regional mixed doubles',
+    description: 'First place in regional Mens Doubles Tournament',
   },
 ];
 

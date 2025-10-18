@@ -7,24 +7,35 @@ const projectsData = [
     title: 'NHL Metro Salary Cap Dashboard',
     category: 'data',
     description: 'Explores cap allocation vs. team success across the Metro Division (2021-2025).',
-    tags: ['Tableau', 'SQL', 'R', 'Data Viz'],
-    image: null, // Placeholder
+    tags: ['Google Sheets', 'Tableau', 'SQL', 'R', 'Data Viz'],
+    image: '/images/projects/metro.jpg', 
     links: [
-      { label: 'View Dashboard', href: '#', type: 'primary' },
-      { label: 'Case Study', href: '#' },
-      { label: 'GitHub', href: '#' },
+      { label: 'View Case Study', href: 'https://tide-comet-ad3.notion.site/NHL-Metropolitan-Division-Capstone-Salary-Cap-vs-Success-26bdafd5d4668033af71c70540afb5e8', type: 'primary' },
+      
+    ],
+  },
+  {
+    id: 7,
+    title: 'Ecommerce Ui Kit',
+    category: 'web',
+    description: 'Ecommerce UI Kit with React, Tailwind, and Framer Motion. A collection of reusable components for ecommerce websites.',
+    tags: ['React', 'Tailwind', 'Framer Motion'],
+    image: '/images/projects/ecommerce.png',
+    links: [
+      { label: 'View Website', href: 'https://ecommerce-ui-kit.vercel.app/', type: 'primary' },
+      { label: 'Repo', href: 'https://github.com/Zander-M75/ecommerce-ui-kit' },
     ],
   },
   {
     id: 2,
     title: 'AHS Connect — Marketing Site',
     category: 'web',
-    description: 'Clean marketing site with sticky nav and hero video for healthcare services.',
+    description: 'Clean small business landing page with sticky nav and hero video for hotel procurement services.',
     tags: ['React', 'Tailwind', 'Vite'],
-    image: null,
+    image: '/images/projects/hotel-hero.png',
     links: [
-      { label: 'Live Site', href: '#', type: 'primary' },
-      { label: 'Repo', href: '#' },
+      { label: 'Live Site', href: 'https://ahs-connect.com/', type: 'primary' },
+      { label: 'Repo', href: 'https://github.com/Zander-M75/AHS' },
     ],
   },
   {
@@ -74,6 +85,7 @@ const projectsData = [
       { label: 'GitHub', href: '#', type: 'primary' },
     ],
   },
+ 
 ];
 
 const filters = ['All', 'Data', 'Web'];
@@ -140,16 +152,17 @@ export const Projects = () => {
             >
               {/* Thumbnail */}
               <div className="aspect-video bg-gradient-to-br from-mint/20 to-navy/20 flex items-center justify-center relative overflow-hidden">
-                <div className="text-4xl font-bold text-navy/20 dark:text-offwhite/20">
-                  {project.title.charAt(0)}
-                </div>
-                {/* Uncomment when you have images:
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-full object-cover"
-                />
-                */}
+                {project.image ? (
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-full object-cover"
+                  />
+                ) : (
+                  <div className="text-4xl font-bold text-navy/20 dark:text-offwhite/20">
+                    {project.title.charAt(0)}
+                  </div>
+                )}
               </div>
 
               {/* Content */}
