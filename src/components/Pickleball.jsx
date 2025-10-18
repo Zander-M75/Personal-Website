@@ -21,7 +21,7 @@ const milestones = [
 ];
 
 const stats = [
-  { label: 'Current DUPR Rating', value: '3.3' },
+  { label: 'Current DUPR Rating', value: '3.5' },
   { label: 'Matches Played', value: '200+' },
   { label: 'Win Rate', value: '68%' },
   { label: 'Tournament Championships', value: '1' },
