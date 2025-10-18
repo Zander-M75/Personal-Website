@@ -27,6 +27,7 @@ const talkToMeAbout = [
  'Aresenal FC',
  'Entrepreneurship',
  'Day Trading',
+ 'Rocket League',
  'XRP',
  'Pickleball',
  'Drone Photography',
