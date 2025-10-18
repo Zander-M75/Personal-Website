@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { ScrollingTicker } from './ScrollingTicker';
+import { ImageCarousel } from './ImageCarousel';
 
 const quickFacts = [
   { label: 'Location', value: 'NJ' },
@@ -18,6 +19,7 @@ const talkToMeAbout = [
  'FIFA Ultimate Team',
  'Sports Analytics',
  'Mustangs',
+ 'The Grateful Dead',
  'Data Visualization',
  'NHL Salary Cap Strategy',
  'Tech Startups & Product Ideas',
@@ -40,6 +42,21 @@ const talkToMeAbout = [
 
 ];
 
+const carouselImages = [
+  // { type: 'placeholder', content: 'ZM', alt: 'Zander Marenberg' },
+  // Add more images here as needed:
+  {type: 'image', src: '/images/about/zander-headshot.png', alt: 'Zander Marenberg' },
+  {type: 'image', src: '/images/about/zander-and-jesus.PNG', alt: 'Zander Marenberg' },
+  {type: 'image', src: '/images/about/zander-dc.png', alt: 'Zander Marenberg' },
+  {type: 'image', src: '/images/about/zander-mustang.PNG', alt: 'Zander Marenberg' },
+  {type: 'image', src: '/images/about/zander-pickleball.jpg', alt: 'Zander Marenberg' },
+  {type: 'image', src: '/images/about/zander-spain.png', alt: 'Zander Marenberg' },
+  {type: 'image', src: '/images/about/zander-work.PNG', alt: 'Zander Marenberg' },
+  {type: 'image', src: '/images/about/zander-lacrosse.jpg', alt: 'Zander Marenberg' },
+  // { type: 'image', src: '/images/about/photo1.jpg', alt: 'Description' },
+  // { type: 'image', src: '/images/about/photo2.jpg', alt: 'Description' },
+];
+
 export const About = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-100px' });
@@ -54,7 +71,7 @@ export const About = () => {
           transition={{ duration: 0.6 }}
           className="grid md:grid-cols-2 gap-12 lg:gap-16 items-center"
         >
-          {/* Left - Image */}
+          {/* Left - Image Carousel */}
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.95 }}
@@ -62,17 +79,7 @@ export const About = () => {
             className="relative"
           >
             <div className="aspect-[4/5] rounded-2xl bg-gradient-to-br from-mint/20 to-navy/20 shadow-2xl overflow-hidden">
-              {/* Placeholder for image - replace with actual image */}
-              <div className="w-full h-full flex items-center justify-center text-navy/20 dark:text-offwhite/20 text-6xl font-bold">
-                ZM
-              </div>
-              {/* Uncomment and use when you have an image:
-              <img
-                src="/path-to-your-image.jpg"
-                alt="Zander Marenberg"
-                className="w-full h-full object-cover"
-              />
-              */}
+              <ImageCarousel images={carouselImages} interval={4000} />
             </div>
           </motion.div>
 

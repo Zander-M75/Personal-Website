@@ -67,7 +67,14 @@ export const Drone = () => {
           <p className="text-lg text-navy/70 dark:text-offwhite/70 mb-6">
             Capturing perspectives from above — landscapes, cityscapes, and everything in between.
           </p>
-         
+          <a
+            href="https://instagram.com/zandermarenberg"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-mint hover:underline font-medium"
+          >
+            View Full Gallery on Instagram →
+          </a>
         </motion.div>
 
         {/* Photo Grid */}
