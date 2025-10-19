@@ -52,14 +52,13 @@ const projectsData = [
   },
   {
     id: 4,
-    title: 'Gradr — Card Grading Concept',
+    title: 'Gradr — AI Card Grading Concept',
     category: 'web',
     description: 'Brand identity and prototype for AI-powered sports card grading service.',
     tags: ['UI/UX', 'Figma', 'Branding'],
-    image: null,
+    image: '/images/projects/gradr-thumbnail.png',
     links: [
-      { label: 'Case Study', href: '#', type: 'primary' },
-      { label: 'Figma', href: '#' },
+      { label: 'View Case Study', href: 'https://tide-comet-ad3.notion.site/Case-Study-Gradr-The-Smart-Way-to-Grade-Cards-291dafd5d4668076b5dcf5792ff5f04b', type: 'primary' },
     ],
   },
   {
