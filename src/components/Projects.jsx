@@ -39,6 +39,17 @@ const projectsData = [
     ],
   },
   {
+    id: 4,
+    title: 'Gradr — AI Card Grading Concept',
+    category: 'web',
+    description: 'Brand identity and prototype for AI-powered sports card grading service.',
+    tags: ['UI/UX', 'Figma', 'Branding'],
+    image: '/images/projects/gradr-thumbnail.png',
+    links: [
+      { label: 'View Case Study', href: 'https://tide-comet-ad3.notion.site/Case-Study-Gradr-The-Smart-Way-to-Grade-Cards-291dafd5d4668076b5dcf5792ff5f04b', type: 'primary' },
+    ],
+  },
+  {
     id: 2,
     title: 'AHS Connect — Marketing Site',
     category: 'web',
@@ -59,21 +70,11 @@ const projectsData = [
     image: null,
     status: 'in-progress',
     links: [
-      { label: 'Demo', href: '#', type: 'primary' },
-      { label: 'Repo', href: '#' },
+      // { label: 'Demo', href: '#', type: 'primary' },
+      // { label: 'Repo', href: '#' },
     ],
   },
-  {
-    id: 4,
-    title: 'Gradr — AI Card Grading Concept',
-    category: 'web',
-    description: 'Brand identity and prototype for AI-powered sports card grading service.',
-    tags: ['UI/UX', 'Figma', 'Branding'],
-    image: '/images/projects/gradr-thumbnail.png',
-    links: [
-      { label: 'View Case Study', href: 'https://tide-comet-ad3.notion.site/Case-Study-Gradr-The-Smart-Way-to-Grade-Cards-291dafd5d4668076b5dcf5792ff5f04b', type: 'primary' },
-    ],
-  },
+  
   
   {
     id: 5,
@@ -84,8 +85,8 @@ const projectsData = [
     image: null,
     status: 'in-progress',
     links: [
-      { label: 'View Dashboard', href: '#', type: 'primary' },
-      { label: 'GitHub', href: '#' },
+      // { label: 'View Dashboard', href: '#', type: 'primary' },
+      // { label: 'GitHub', href: '#' },
     ],
   },
   {
@@ -97,8 +98,8 @@ const projectsData = [
     image: null,
     status: 'in-progress',
     links: [
-      { label: 'View Dashboard', href: '#', type: 'primary' },
-      { label: 'GitHub', href: '#' },
+      // { label: 'View Dashboard', href: '#', type: 'primary' },
+      // { label: 'GitHub', href: '#' },
     ],
   },
   {
