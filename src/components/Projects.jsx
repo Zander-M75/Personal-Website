@@ -22,7 +22,7 @@ const projectsData = [
     tags: ['React', 'Tailwind', 'Framer Motion'],
     image: '/images/projects/ecom.jpg',
     links: [
-      { label: 'View Website', href: 'https://ui-kit-ecommerce.vercel.app/', type: 'primary' },
+      { label: 'Live Site', href: 'https://ui-kit-ecommerce.vercel.app/', type: 'primary' },
       { label: 'Repo', href: 'https://github.com/Zander-M75/Ui-Kit-Ecommerce' },
     ],
   },
