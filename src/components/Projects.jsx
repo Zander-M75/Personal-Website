@@ -22,8 +22,8 @@ const projectsData = [
     tags: ['React', 'Tailwind', 'Framer Motion'],
     image: '/images/projects/ecommerce.png',
     links: [
-      { label: 'View Website', href: 'https://ecommerce-ui-kit.vercel.app/', type: 'primary' },
-      { label: 'Repo', href: 'https://github.com/Zander-M75/ecommerce-ui-kit' },
+      { label: 'View Website', href: 'https://ui-kit-ecommerce.vercel.app/', type: 'primary' },
+      { label: 'Repo', href: 'https://github.com/Zander-M75/Ui-Kit-Ecommerce' },
     ],
   },
   {
@@ -80,9 +80,9 @@ const projectsData = [
     category: 'web',
     description: 'This site! Modern one-page portfolio with smooth animations and dark mode.',
     tags: ['React', 'Tailwind', 'Framer Motion'],
-    image: null,
+    image: '/images/projects/Portfolio-thumbnail.png',
     links: [
-      { label: 'GitHub', href: '#', type: 'primary' },
+      { label: 'GitHub', href: 'https://github.com/Zander-M75/Personal-Website', type: 'primary' },
     ],
   },
  
