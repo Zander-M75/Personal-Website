@@ -10,7 +10,7 @@ const floatingElements = [
   { type: 'image', src: '/images/icons/Yankees.svg', alt: 'Yankees', delay: 3 },
   { type: 'image', src: '/images/icons/Knicks.svg', alt: 'Knicks', delay: 3 },
   { type: 'image', src: '/images/icons/jollyroger.svg', alt: 'One Piece', delay: 3 },
-  { type: 'image', src: '/images/icons/deadhead.svg', alt: 'Grateful Dead', delay: 3 },
+  { type: 'image', src: '/images/icons/deadhead2.svg', alt: 'Grateful Dead', delay: 3 },
   { icon: '🥍', label: 'Lacrosse', delay: 3.5 },
   { icon: '🏒', label: 'Hockey', delay: 3.5 },
   { icon: '🏓', label: 'Pickleball', delay: 4 },
