@@ -25,7 +25,7 @@ const dronePhotos = [
   },
   {
     id: 4,
-    title: 'Secret Path in the woods',
+    title: 'Secret Path',
     location: 'Watchung Reservation, NJ',
     date: 'Aug 2024',
     thumbnail: '/images/drone/secret-path.jpg',

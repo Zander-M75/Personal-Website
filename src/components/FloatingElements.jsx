@@ -9,6 +9,7 @@ const floatingElements = [
   { type: 'image', src: '/images/icons/Giants.svg', alt: 'Giants', delay: 2.5 },
   { type: 'image', src: '/images/icons/Yankees.svg', alt: 'Yankees', delay: 3 },
   { type: 'image', src: '/images/icons/Knicks.svg', alt: 'Knicks', delay: 3 },
+  { icon: '🥍', label: 'Lacrosse', delay: 3.5 },
   { icon: '🏒', label: 'Hockey', delay: 3.5 },
   { icon: '🏓', label: 'Pickleball', delay: 4 },
   { icon: '🚁', label: 'Drone', delay: 4.5 },
@@ -23,13 +24,11 @@ const floatingElements = [
   { icon: '🎮', label: 'Gaming', delay: 9 },
   { icon: '📱', label: 'Mobile', delay: 9.5 },
   { icon: '🌐', label: 'Web', delay: 10 },
-  { icon: '🔧', label: 'Tools', delay: 10.5 },
   { icon: '📈', label: 'Growth', delay: 11 },
   { icon: '🚀', label: 'Launch', delay: 12 },
   { icon: '💡', label: 'Ideas', delay: 12.5 },
   { icon: '⭐', label: 'Star', delay: 13 },
   { icon: '🔥', label: 'Fire', delay: 13.5 },
-  { icon: '💎', label: 'Diamond', delay: 14 },
   { icon: '🌍', label: 'Global', delay: 14.5 },
 ];
 
