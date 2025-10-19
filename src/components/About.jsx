@@ -94,7 +94,7 @@ export const About = () => {
                 About
               </h2>
               <p className="text-lg leading-relaxed text-navy/80 dark:text-offwhite/80">
-              Hi, I’m Zander — a New Jersey–based builder who loves bringing ideas to life across business, tech, and creativity. I studied Finance and Entrepreneurship at Rutgers, completed a full-stack coding bootcamp, and recently dove deep into data analytics. My work spans web projects, sports data dashboards, and creative outlets like aerial drone photography. I care about solving real problems, designing clear user experiences, and creating things that make an impact. When I’m not working on a build, you’ll probably find me on a pickleball court or a lacrosse field.
+              Hi, I’m Zander — a New Jersey–based builder who loves bringing ideas to life across business, tech, sports, and creativity. I studied Finance and Entrepreneurship at Rutgers, completed a full-stack coding bootcamp, and recently dove deep into data analytics. My work spans web projects, sports data dashboards, and creative outlets like aerial drone photography. I care about solving real problems, designing clear user experiences, having fun, and creating things that make an impact. When I’m not working, you’ll probably find me on a pickleball court, a lacrosse field, rooting on NY sports teams, or gaming.
               </p>
             </motion.div>
 
