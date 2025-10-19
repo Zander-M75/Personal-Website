@@ -53,7 +53,7 @@ const projectsData = [
     id: 2,
     title: 'AHS Connect — Marketing Site',
     category: 'web',
-    description: 'Clean small business landing page with sticky nav and hero video for hotel procurement services.',
+    description: 'Clean small business landing page with sticky nav and hero video for local hotel procurement services.',
     tags: ['React', 'Tailwind', 'Vite'],
     image: '/images/projects/hotel-hero.png',
     links: [
