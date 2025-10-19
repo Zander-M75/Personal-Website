@@ -9,7 +9,7 @@ const quickFacts = [
   { label: 'Focus', value: 'Data + Web' },
   { label: 'Tools', value: 'React, Vite, Tailwind, SQL, R, Tableau, Excel' },
   { label: 'Education', value: 'Rutgers University' },
-  { label: 'Currently', value: 'Building new projects, seeking new opportunities' },
+  { label: 'Currently', value: 'Building new projects, seeking new career opportunities' },
   { label: 'Email', value: 'marenberg.zander@gmail.com', link: 'mailto:marenberg.zander@gmail.com' },
 ];
 

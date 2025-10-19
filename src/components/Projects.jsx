@@ -20,7 +20,7 @@ const projectsData = [
     category: 'web',
     description: 'Ecommerce UI Kit with React, Tailwind, and Framer Motion. A collection of reusable components for ecommerce websites.',
     tags: ['React', 'Tailwind', 'Framer Motion'],
-    image: '/images/projects/ecommerce.png',
+    image: '/images/projects/ecom.jpg',
     links: [
       { label: 'View Website', href: 'https://ui-kit-ecommerce.vercel.app/', type: 'primary' },
       { label: 'Repo', href: 'https://github.com/Zander-M75/Ui-Kit-Ecommerce' },
