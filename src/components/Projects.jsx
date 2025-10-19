@@ -27,6 +27,18 @@ const projectsData = [
     ],
   },
   {
+    id: 8,
+    title: 'Pokedex',
+    category: 'web',
+    description: 'Pokedex App with React, Tailwind, and Pokemon API. This is a simple pokedex app that allows you to search for a pokemon and see its details. Built for fun.',
+    tags: ['React', 'Tailwind', 'Pokemon API'],
+    image: '/images/projects/pokedex.png',
+    links: [
+      { label: 'Live Site', href: 'https://pokedex-v2-delta.vercel.app/', type: 'primary' },
+      { label: 'Repo', href: 'https://github.com/Zander-M75/PokedexV2' },
+    ],
+  },
+  {
     id: 2,
     title: 'AHS Connect — Marketing Site',
     category: 'web',
@@ -40,7 +52,7 @@ const projectsData = [
   },
   {
     id: 3,
-    title: 'Pane — Client Portal Generator',
+    title: '*in progress* Pane — Client Portal Generator',
     category: 'web',
     description: 'Web app with templates for invoices, tasks, and schedules for freelancers.',
     tags: ['React', 'Firebase', 'Auth'],
@@ -61,24 +73,25 @@ const projectsData = [
       { label: 'View Case Study', href: 'https://tide-comet-ad3.notion.site/Case-Study-Gradr-The-Smart-Way-to-Grade-Cards-291dafd5d4668076b5dcf5792ff5f04b', type: 'primary' },
     ],
   },
-  {
-    id: 8,
-    title: 'Pokedex',
-    category: 'web',
-    description: 'Pokedex App with React, Tailwind, and Pokemon API. This is a simple pokedex app that allows you to search for a pokemon and see its details. Built for fun.',
-    tags: ['React', 'Tailwind', 'Pokemon API'],
-    image: '/images/projects/pokedex.png',
-    links: [
-      { label: 'Live Site', href: 'https://pokedex-v2-delta.vercel.app/', type: 'primary' },
-      { label: 'Repo', href: 'https://github.com/Zander-M75/PokedexV2' },
-    ],
-  },
+  
   {
     id: 5,
-    title: 'NBA Draft Analysis',
+    title: '*in progress* NBA Draft Analysis',
     category: 'data',
     description: 'Interactive dashboard analyzing draft pick value and player performance metrics.',
     tags: ['Tableau', 'Python', 'Data Analysis'],
+    image: null,
+    links: [
+      { label: 'View Dashboard', href: '#', type: 'primary' },
+      { label: 'GitHub', href: '#' },
+    ],
+  },
+  {
+    id: 9,
+    title: '*in progress* NFL Momentum Analysis',
+    category: 'data',
+    description: 'Interactive dashboard analyzing NFL team momentum and performance metrics.',
+    tags: ['Tableau', 'Python', 'R', 'SQL', 'Data Analysis'],
     image: null,
     links: [
       { label: 'View Dashboard', href: '#', type: 'primary' },
