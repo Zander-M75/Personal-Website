@@ -46,7 +46,7 @@ export const Navigation = ({ activeSection, isDark, toggleDark }) => {
           : 'bg-transparent'
       }`}
     >
-      <div className="container-width">
+      <div className="container-width px-4 md:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <a
@@ -128,7 +128,7 @@ export const Navigation = ({ activeSection, isDark, toggleDark }) => {
             exit={{ opacity: 0, height: 0 }}
             className="md:hidden bg-offwhite/95 dark:bg-navy/95 backdrop-blur-md border-t border-navy/10 dark:border-offwhite/10"
           >
-            <div className="container-width py-4 space-y-2">
+            <div className="container-width px-4 md:px-6 py-4 space-y-2">
               {navLinks.map((link) => (
                 <a
                   key={link.name}

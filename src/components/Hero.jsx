@@ -39,7 +39,7 @@ export const Hero = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center relative overflow-hidden"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden pt-16 md:pt-20"
     >
       {/* Background Gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-mint/5 via-transparent to-navy/5 dark:from-mint/10 dark:to-navy/20" />
