@@ -62,6 +62,18 @@ const projectsData = [
     ],
   },
   {
+    id: 8,
+    title: 'Pokedex',
+    category: 'web',
+    description: 'Pokedex App with React, Tailwind, and Pokemon API. This is a simple pokedex app that allows you to search for a pokemon and see its details. Built for fun.',
+    tags: ['React', 'Tailwind', 'Pokemon API'],
+    image: '/images/projects/pokedex.png',
+    links: [
+      { label: 'Live Site', href: 'https://pokedex-v2-delta.vercel.app/', type: 'primary' },
+      { label: 'Repo', href: 'https://github.com/Zander-M75/PokedexV2' },
+    ],
+  },
+  {
     id: 5,
     title: 'NBA Draft Analysis',
     category: 'data',
