@@ -52,11 +52,12 @@ const projectsData = [
   },
   {
     id: 3,
-    title: '*in progress* Pane — Client Portal Generator',
+    title: 'Pane — Client Portal Generator',
     category: 'web',
     description: 'Web app with templates for invoices, tasks, and schedules for freelancers.',
     tags: ['React', 'Firebase', 'Auth'],
     image: null,
+    status: 'in-progress',
     links: [
       { label: 'Demo', href: '#', type: 'primary' },
       { label: 'Repo', href: '#' },
@@ -76,11 +77,12 @@ const projectsData = [
   
   {
     id: 5,
-    title: '*in progress* NBA Draft Analysis',
+    title: 'NBA Draft Analysis',
     category: 'data',
     description: 'Interactive dashboard analyzing draft pick value and player performance metrics.',
     tags: ['Tableau', 'Python', 'Data Analysis'],
     image: null,
+    status: 'in-progress',
     links: [
       { label: 'View Dashboard', href: '#', type: 'primary' },
       { label: 'GitHub', href: '#' },
@@ -88,11 +90,12 @@ const projectsData = [
   },
   {
     id: 9,
-    title: '*in progress* NFL Momentum Analysis',
+    title: 'NFL Momentum Analysis',
     category: 'data',
     description: 'Interactive dashboard analyzing NFL team momentum and performance metrics.',
     tags: ['Tableau', 'Python', 'R', 'SQL', 'Data Analysis'],
     image: null,
+    status: 'in-progress',
     links: [
       { label: 'View Dashboard', href: '#', type: 'primary' },
       { label: 'GitHub', href: '#' },
@@ -191,9 +194,16 @@ export const Projects = () => {
 
               {/* Content */}
               <div className="p-6">
-                <h3 className="text-xl font-display font-bold mb-2 group-hover:text-mint transition-colors">
-                  {project.title}
-                </h3>
+                <div className="flex items-start justify-between gap-2 mb-2">
+                  <h3 className="text-xl font-display font-bold group-hover:text-mint transition-colors">
+                    {project.title}
+                  </h3>
+                  {project.status === 'in-progress' && (
+                    <span className="px-2 py-1 text-xs font-semibold bg-mint/20 text-mint rounded-md whitespace-nowrap">
+                      In Progress
+                    </span>
+                  )}
+                </div>
                 <p className="text-sm text-navy/70 dark:text-offwhite/70 mb-4">
                   {project.description}
                 </p>
