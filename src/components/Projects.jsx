@@ -95,7 +95,7 @@ const projectsData = [
     category: 'data',
     description: 'Interactive dashboard analyzing NFL team momentum and performance metrics.',
     tags: ['Tableau', 'Python', 'R', 'SQL', 'Data Analysis'],
-    image: null,
+    image: '/images/projects/NFL.jpeg',
     status: 'in-progress',
     links: [
       // { label: 'View Dashboard', href: '#', type: 'primary' },
