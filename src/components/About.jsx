@@ -131,7 +131,7 @@ export const About = () => {
             </motion.div>
 
             {/* Download Resume Button */}
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 0.6, delay: 0.5 }}
@@ -144,7 +144,7 @@ export const About = () => {
                 <span>Download Resume</span>
                 <span>↓</span>
               </a>
-            </motion.div>
+            </motion.div> */}
           </div>
         </motion.div>
 
