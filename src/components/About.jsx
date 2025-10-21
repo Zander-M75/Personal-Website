@@ -51,6 +51,7 @@ const carouselImages = [
   {type: 'image', src: '/images/about/zander-and-jesus.PNG', alt: 'Zander Marenberg' },
   {type: 'image', src: '/images/about/zander-dc.png', alt: 'Zander Marenberg' },
   {type: 'image', src: '/images/about/zander-mustang.PNG', alt: 'Zander Marenberg' },
+  {type: 'image', src: '/images/about/zander-lax.JPEG', alt: 'Zander Marenberg' },
   {type: 'image', src: '/images/about/zander-pickleball.jpg', alt: 'Zander Marenberg' },
   {type: 'image', src: '/images/about/zander-spain.png', alt: 'Zander Marenberg' },
   {type: 'image', src: '/images/about/zander-work.PNG', alt: 'Zander Marenberg' },
