@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
 
 const contactLinks = [
@@ -43,6 +43,36 @@ const contactLinks = [
 export const Contact = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-100px' });
+  const [formStatus, setFormStatus] = useState('idle'); // idle, sending, success, error
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setFormStatus('sending');
+
+    const formData = new FormData(e.target);
+
+    try {
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formData,
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        setFormStatus('success');
+        e.target.reset();
+        // Reset status after 5 seconds
+        setTimeout(() => setFormStatus('idle'), 5000);
+      } else {
+        setFormStatus('error');
+        setTimeout(() => setFormStatus('idle'), 5000);
+      }
+    } catch (error) {
+      setFormStatus('error');
+      setTimeout(() => setFormStatus('idle'), 5000);
+    }
+  };
 
   return (
     <section id="contact" className="section-padding bg-navy dark:bg-offwhite">
@@ -99,35 +129,68 @@ export const Contact = () => {
             ))}
           </motion.div>
 
-          {/* Optional Form */}
+          {/* Contact Form */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.6, delay: 0.4 }}
             className="max-w-md mx-auto"
           >
-            <form className="space-y-4">
+            <form onSubmit={handleSubmit} className="space-y-4">
+              {/* Web3Forms Access Key - Get yours at https://web3forms.com */}
+              <input type="hidden" name="access_key" value="c1edabbb-ee4f-4812-a933-01f853f15771" />
+              <input type="hidden" name="subject" value="New Contact Form Submission from Portfolio" />
+              <input type="hidden" name="from_name" value="Portfolio Contact Form" />
+              
               <input
                 type="text"
+                name="name"
                 placeholder="Your name"
+                required
                 className="w-full px-4 py-3 rounded-lg bg-offwhite/10 dark:bg-navy/10 border border-offwhite/20 dark:border-navy/20 text-offwhite dark:text-navy placeholder-offwhite/50 dark:placeholder-navy/50 focus:outline-none focus:border-mint transition-colors"
               />
               <input
                 type="email"
+                name="email"
                 placeholder="Your email"
+                required
                 className="w-full px-4 py-3 rounded-lg bg-offwhite/10 dark:bg-navy/10 border border-offwhite/20 dark:border-navy/20 text-offwhite dark:text-navy placeholder-offwhite/50 dark:placeholder-navy/50 focus:outline-none focus:border-mint transition-colors"
               />
               <textarea
+                name="message"
                 placeholder="Your message"
                 rows="4"
+                required
                 className="w-full px-4 py-3 rounded-lg bg-offwhite/10 dark:bg-navy/10 border border-offwhite/20 dark:border-navy/20 text-offwhite dark:text-navy placeholder-offwhite/50 dark:placeholder-navy/50 focus:outline-none focus:border-mint transition-colors resize-none"
               />
+              
               <button
                 type="submit"
-                className="w-full px-8 py-4 bg-mint text-navy font-semibold rounded-lg hover:bg-mint/90 transition-all hover:scale-105 active:scale-95 shadow-lg"
+                disabled={formStatus === 'sending'}
+                className="w-full px-8 py-4 bg-mint text-navy font-semibold rounded-lg hover:bg-mint/90 transition-all hover:scale-105 active:scale-95 shadow-lg disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
               >
-                Send Message
+                {formStatus === 'sending' ? 'Sending...' : 'Send Message'}
               </button>
+
+              {/* Status Messages */}
+              {formStatus === 'success' && (
+                <motion.p
+                  initial={{ opacity: 0, y: -10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className="text-center text-mint font-medium"
+                >
+                  ✓ Message sent successfully! I'll get back to you soon.
+                </motion.p>
+              )}
+              {formStatus === 'error' && (
+                <motion.p
+                  initial={{ opacity: 0, y: -10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className="text-center text-red-400 font-medium"
+                >
+                  ✗ Oops! Something went wrong. Please try again or email me directly.
+                </motion.p>
+              )}
             </form>
           </motion.div>
         </motion.div>
