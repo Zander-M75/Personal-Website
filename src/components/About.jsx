@@ -36,6 +36,7 @@ const talkToMeAbout = [
  'Drone Photography',
  'Lacrosse',
  'Weightlifting',
+ 'Anime',
  'Motivation & Self-Improvement'
 
 
