@@ -67,7 +67,7 @@ const projectsData = [
     category: 'web',
     description: 'Web app with templates for invoices, tasks, and schedules for freelancers.',
     tags: ['React', 'Firebase', 'Auth'],
-    image: null,
+    image: '/images/projects/pane.png',
     status: 'in-progress',
     links: [
       // { label: 'Demo', href: '#', type: 'primary' },
@@ -82,7 +82,7 @@ const projectsData = [
     category: 'data',
     description: 'Interactive dashboard analyzing draft pick value and player performance metrics.',
     tags: ['Tableau', 'Python', 'Data Analysis'],
-    image: null,
+    image: '/images/projects/NBA.webp',
     status: 'in-progress',
     links: [
       // { label: 'View Dashboard', href: '#', type: 'primary' },
