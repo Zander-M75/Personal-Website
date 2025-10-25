@@ -14,12 +14,12 @@ const contactLinks = [
     icon: '💼',
     description: 'Professional network',
   },
-  {
-    name: 'X (Twitter)',
-    href: 'https://x.com/zandermarenberg',
-    icon: '𝕏',
-    description: 'Follow me on X',
-  },
+  // {
+  //   name: 'X (Twitter)',
+  //   href: 'https://x.com/zandermarenberg',
+  //   icon: '𝕏',
+  //   description: 'Follow me on X',
+  // },
   {
     name: 'GitHub',
     href: 'https://github.com/Zander-M75',
