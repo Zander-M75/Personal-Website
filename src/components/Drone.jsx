@@ -69,7 +69,7 @@ export const Drone = () => {
           </p>
           {/* Instagram Option for Later */}
           {/* <a
-            href="https://instagram.com/zandermarenberg"
+            href="https://instagram.com/zander_m75"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-mint hover:underline font-medium"

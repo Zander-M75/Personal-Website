@@ -22,7 +22,7 @@ export const Footer = ({ toggleDark, isDark }) => {
           {/* Center - Links */}
           <div className="flex items-center gap-6">
             <a
-              href="https://github.com/zandermarenberg"
+              href="https://github.com/Zander-M75"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-navy/70 dark:text-offwhite/70 hover:text-mint transition-colors"
@@ -30,7 +30,7 @@ export const Footer = ({ toggleDark, isDark }) => {
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/zandermarenberg"
+              href="https://linkedin.com/in/zander-marenberg"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-navy/70 dark:text-offwhite/70 hover:text-mint transition-colors"
@@ -38,7 +38,7 @@ export const Footer = ({ toggleDark, isDark }) => {
               LinkedIn
             </a>
             <a
-              href="https://instagram.com/zandermarenberg"
+              href="https://instagram.com/zander_m75"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-navy/70 dark:text-offwhite/70 hover:text-mint transition-colors"

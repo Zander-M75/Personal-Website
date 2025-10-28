@@ -11,9 +11,9 @@ const navLinks = [
 ];
 
 const socialLinks = [
-  { name: 'GitHub', href: 'https://github.com/zandermarenberg', icon: '→ GitHub' },
-  { name: 'LinkedIn', href: 'https://linkedin.com/in/zandermarenberg', icon: '→ LinkedIn' },
-  { name: 'Instagram', href: 'https://instagram.com/zandermarenberg', icon: '→ Instagram' },
+  { name: 'GitHub', href: 'https://github.com/Zander-M75', icon: '→ GitHub' },
+  { name: 'LinkedIn', href: 'https://linkedin.com/in/zander-marenberg', icon: '→ LinkedIn' },
+  { name: 'Instagram', href: 'https://instagram.com/zander_m75', icon: '→ Instagram' },
   { name: 'Tableau', href: 'https://public.tableau.com/app/profile/zander.marenberg', icon: '→ Tableau' },
 ];
 
