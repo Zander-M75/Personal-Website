@@ -66,7 +66,7 @@ const projectsData = [
     title: 'SuperStore Analysis & Dashboard',
     category: 'data',
     description: 'An interactive Tableau project analyzing the Kaggle Superstore dataset to uncover product profitability and regional performance insights.',
-    tags: ['Google Sheets', 'Tableau', 'Data Analysis'],
+    tags: ['Google Sheets', 'Tableau', 'Business Analysis'],
     image: '/images/projects/superstore.webp',
     links: [
       { label: 'View Project', href: 'https://tide-comet-ad3.notion.site/Superstore-Profitability-Inventory-Insights-29adafd5d4668001890bfd433b1706f7', type: 'primary' },
