@@ -4,9 +4,9 @@ import { motion, useInView } from 'framer-motion';
 const projectsData = [
   {
     id: 1,
-    title: 'NHL Metro Salary Cap Dashboard',
+    title: 'NHL Metro Salary Cap Strategy Analysis',
     category: 'data',
-    description: 'Explores cap allocation vs. team success across the Metro Division (2021-2025).',
+    description: 'Analyzes cap allocation vs. team success across the Metro Division (2021-2025) to identify optimal roster construction strategies.',
     tags: ['Google Sheets', 'Tableau', 'SQL', 'R', 'Data Viz'],
     image: '/images/projects/metro.jpg', 
     links: [
@@ -102,9 +102,9 @@ const projectsData = [
   },
   {
     id: 9,
-    title: 'NFL Momentum Analysis',
+    title: 'NFL Spread Market Analysis and Team Performance Modeling',
     category: 'data',
-    description: 'Interactive dashboard analyzing NFL team momentum and performance metrics.',
+    description: 'Multi-season NFL analytics project (2020–present) evaluating team performance vs. the Vegas spread by tracking cover rates, margin vs. closing line, and market mispricing trends.',
     tags: ['Tableau', 'Python', 'R', 'SQL', 'Data Analysis'],
     image: '/images/projects/NFL.jpeg',
     status: 'in-progress',
