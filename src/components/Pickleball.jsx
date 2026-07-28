@@ -140,14 +140,22 @@ export const Pickleball = () => {
             />
           </div>
           
-          {/* Placeholder 1 */}
-          <div className="aspect-square rounded-xl bg-gradient-to-br from-mint/20 to-navy/20 shadow-lg overflow-hidden flex items-center justify-center">
-            <div className="text-4xl">🏓</div>
+          {/* Second image */}
+          <div className="aspect-square rounded-xl bg-gradient-to-br from-mint/20 to-navy/20 shadow-lg overflow-hidden">
+            <img
+              src="/images/pickleball/IMG_0964.jpg"
+              alt="Pickleball tournament with doubles partner"
+              className="w-full h-full object-cover"
+            />
           </div>
-          
-          {/* Placeholder 2 */}
-          <div className="aspect-square rounded-xl bg-gradient-to-br from-mint/20 to-navy/20 shadow-lg overflow-hidden flex items-center justify-center">
-            <div className="text-4xl">🏓</div>
+
+          {/* Third image */}
+          <div className="aspect-square rounded-xl bg-gradient-to-br from-mint/20 to-navy/20 shadow-lg overflow-hidden">
+            <img
+              src="/images/pickleball/IMG_1156.jpg"
+              alt="Pickleball state championship series medal"
+              className="w-full h-full object-cover object-top"
+            />
           </div>
         </motion.div>
 
