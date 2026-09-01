@@ -56,6 +56,7 @@ const carouselImages = [
   {type: 'image', src: '/images/about/zander-spain.png', alt: 'Zander Marenberg' },
   {type: 'image', src: '/images/about/zander-work.PNG', alt: 'Zander Marenberg' },
   {type: 'image', src: '/images/about/zander-lacrosse.jpg', alt: 'Zander Marenberg' },
+  {type: 'image', src: '/images/about/zander-gracie.png', alt: 'Zander Marenberg' },
   // { type: 'image', src: '/images/about/photo1.jpg', alt: 'Description' },
   // { type: 'image', src: '/images/about/photo2.jpg', alt: 'Description' },
 ];

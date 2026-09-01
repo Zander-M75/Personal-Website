@@ -3,6 +3,18 @@ import { motion, useInView } from 'framer-motion';
 
 const projectsData = [
   {
+    id: 11,
+    title: 'Sports Trading Research: NHL First-Period Totals',
+    category: 'data',
+    description: 'Quantitative research into NHL first-period totals markets, covering de-vigging methods, model calibration, and closing line value evaluation, with a live odds pipeline running through the season.',
+    tags: ['Python', 'pandas', 'SciPy', 'Poisson Models', 'Monte Carlo Simulation', 'Next.js'],
+    image: '/images/projects/nhl-totals.png',
+    links: [
+      { label: 'View Site', href: 'https://sports-trading-blog-site.vercel.app/', type: 'primary' },
+      { label: 'Repo', href: 'https://github.com/Zander-M75/sports-trading-research' },
+    ],
+  },
+  {
     id: 1,
     title: 'NHL Metro Salary Cap Strategy Analysis',
     category: 'data',
