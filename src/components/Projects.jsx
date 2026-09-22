@@ -15,6 +15,19 @@ const projectsData = [
     ],
   },
   {
+    id: 12,
+    title: 'LinkedIn Bullshit Compiler',
+    category: 'web',
+    description: 'A satirical web app that "compiles" ordinary accomplishments into over-the-top LinkedIn thought leadership posts, with five intensity levels from Normal to LinkedIn Psychopath, buzzword detection, and cringe analytics.',
+    tags: ['React', 'Vite', 'JavaScript', 'Vercel'],
+    image: '/images/projects/linkedin-compiler.png',
+    imageAspect: 'aspect-[3/2]',
+    links: [
+      { label: 'Live Site', href: 'https://linked-in-post-compiler.vercel.app/', type: 'primary' },
+      { label: 'Repo', href: 'https://github.com/Zander-M75/LinkedIn-Post-Compiler' },
+    ],
+  },
+  {
     id: 1,
     title: 'NHL Metro Salary Cap Strategy Analysis',
     category: 'data',
@@ -202,7 +215,7 @@ export const Projects = () => {
               className="group bg-offwhite dark:bg-navy rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all hover:-translate-y-1 border border-navy/10 dark:border-offwhite/10"
             >
               {/* Thumbnail */}
-              <div className="aspect-video bg-gradient-to-br from-mint/20 to-navy/20 flex items-center justify-center relative overflow-hidden">
+              <div className={`${project.imageAspect || 'aspect-video'} bg-gradient-to-br from-mint/20 to-navy/20 flex items-center justify-center relative overflow-hidden`}>
                 {project.image ? (
                   <img
                     src={project.image}
