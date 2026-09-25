@@ -3,6 +3,19 @@ import { motion, useInView } from 'framer-motion';
 
 const projectsData = [
   {
+    id: 13,
+    title: 'GSE: Group Chat Stock Exchange™',
+    category: 'web',
+    description: "GSE turns your group chat into a stock market: every friend is a stock, and their price moves on what they do. It's all for fun, with no real money involved.",
+    tags: ['Swift', 'Python', 'TypeScript', 'iOS'],
+    image: '/images/projects/gse.png',
+    imageAspect: 'aspect-[3/2]',
+    status: 'beta',
+    links: [
+      { label: 'Request a Beta Code', href: 'mailto:marenberg.zander@gmail.com?subject=GSE%20Beta%20Code', type: 'primary' },
+    ],
+  },
+  {
     id: 11,
     title: 'Sports Trading Research: NHL First-Period Totals',
     category: 'data',
@@ -154,6 +167,8 @@ const projectsData = [
 
 const filters = ['All', 'Data', 'Web'];
 
+const statusLabels = { 'in-progress': 'In Progress', beta: 'Beta' };
+
 export const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('All');
   const ref = useRef(null);
@@ -235,9 +250,9 @@ export const Projects = () => {
                   <h3 className="text-xl font-display font-bold group-hover:text-mint transition-colors">
                     {project.title}
                   </h3>
-                  {project.status === 'in-progress' && (
+                  {statusLabels[project.status] && (
                     <span className="px-2 py-1 text-xs font-semibold bg-mint/20 text-mint rounded-md whitespace-nowrap">
-                      In Progress
+                      {statusLabels[project.status]}
                     </span>
                   )}
                 </div>
