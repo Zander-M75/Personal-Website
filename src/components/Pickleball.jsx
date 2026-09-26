@@ -18,13 +18,18 @@ const milestones = [
     title: 'First Official Tournament Win',
     description: 'First place in regional Mens Doubles Tournament',
   },
+  {
+    date: 'Jun 2026',
+    title: 'Bought a Very Expensive Paddle',
+    description: 'Sure the paddle was the problem. (The paddle was not the problem.)',
+  },
 ];
 
 const stats = [
-  { label: 'Current DUPR Rating', value: '3.5' },
-  { label: 'Matches Played', value: '200+' },
-  { label: 'Win Rate', value: '68%' },
-  { label: 'Tournament Championships', value: '2' },
+  { label: 'Current DUPR Rating', value: 'Lower than it should be' },
+  { label: 'Matches Played', value: '"one more game?"' },
+  { label: 'Win Rate', value: '100% (of the ones I count)' },
+  { label: 'Championships', value: 'So many cant remember (2)' },
 ];
 
 export const Pickleball = () => {
@@ -62,11 +67,11 @@ export const Pickleball = () => {
               key={index}
               className="p-6 bg-offwhite dark:bg-navy rounded-xl text-center border border-navy/10 dark:border-offwhite/10 shadow-lg"
             >
-              <div className="text-3xl md:text-4xl font-display font-bold text-mint mb-2">
-                {stat.value}
-              </div>
-              <div className="text-sm text-navy/70 dark:text-offwhite/70">
+              <div className="text-sm text-navy/70 dark:text-offwhite/70 mb-2">
                 {stat.label}
+              </div>
+              <div className="text-lg md:text-xl font-display font-bold text-mint text-balance">
+                {stat.value}
               </div>
             </div>
           ))}
@@ -102,7 +107,7 @@ export const Pickleball = () => {
                   <div className="md:hidden flex-shrink-0 w-4 h-4 rounded-full bg-mint border-4 border-offwhite dark:border-navy relative z-10" />
                   
                   {/* Content */}
-                  <div className={`flex-1 p-4 rounded-lg bg-offwhite dark:bg-navy border border-navy/10 dark:border-offwhite/10 shadow-lg ${
+                  <div className={`flex-1 md:flex-none p-4 rounded-lg bg-offwhite dark:bg-navy border border-navy/10 dark:border-offwhite/10 shadow-lg ${
                     index % 2 === 0 ? 'md:text-right md:mr-auto md:ml-0' : 'md:text-left md:ml-auto md:mr-0'
                   } md:w-[calc(50%-2rem)]`}>
                     <div className="text-sm text-mint font-semibold mb-1">
