@@ -6,10 +6,12 @@ const techStack = [
   'SQL',
   'R',
   'Tableau',
+  'Power BI',
   'Tailwind',
   'Python',
   'JavaScript',
   'Excel',
+  'Swift',
 ];
 
 const container = {
