@@ -7,7 +7,7 @@ import { ImageCarousel } from './ImageCarousel';
 const quickFacts = [
   { label: 'Location', value: 'NJ' },
   { label: 'Focus', value: 'Data + Web' },
-  { label: 'Tools', value: 'React, Vite, Tailwind, SQL, R, Tableau, Excel, Python' },
+  { label: 'Tools', value: 'React, Next.js, Vite, Tailwind, SQL, R, Tableau, Excel, Python, Swift' },
   { label: 'Education', value: 'Rutgers University' },
   { label: 'Currently', value: 'Seeking new career opportunities' },
   { label: 'Email', value: 'marenberg.zander@gmail.com', link: 'mailto:marenberg.zander@gmail.com' },
