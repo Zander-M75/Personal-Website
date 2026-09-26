@@ -6,10 +6,12 @@ import { ImageCarousel } from './ImageCarousel';
 
 const quickFacts = [
   { label: 'Location', value: 'NJ' },
-  { label: 'Focus', value: 'Data + Web' },
-  { label: 'Tools', value: 'React, Next.js, Vite, Tailwind, SQL, R, Tableau, Excel, Python, Swift' },
+  { label: 'Focus', value: 'Web + Data' },
   { label: 'Education', value: 'Rutgers University' },
   { label: 'Currently', value: 'Seeking new career opportunities' },
+  { label: 'Tools', value: 'Whatever the job description says' },
+  { label: 'Screen Time', value: "Let's not talk about it" },
+  { label: 'Rangers Mood', value: 'Cautiously optimistic (every year)' },
   { label: 'Email', value: 'marenberg.zander@gmail.com', link: 'mailto:marenberg.zander@gmail.com' },
 ];
 
