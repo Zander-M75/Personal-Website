@@ -87,18 +87,18 @@ const projectsData = [
       { label: 'View Case Study', href: 'https://tide-comet-ad3.notion.site/Case-Study-Gradr-The-Smart-Way-to-Grade-Cards-291dafd5d4668076b5dcf5792ff5f04b', type: 'primary' },
     ],
   },
-  {
-    id: 2,
-    title: 'AHS Connect — Marketing Site',
-    category: 'web',
-    description: 'Clean small business landing page with sticky nav and hero video for local hotel procurement services.',
-    tags: ['React', 'Tailwind', 'Vite'],
-    image: '/images/projects/hotel-hero.png',
-    links: [
-      { label: 'Live Site', href: 'https://ahs-connect.com/', type: 'primary' },
-      { label: 'Repo', href: 'https://github.com/Zander-M75/AHS' },
-    ],
-  },
+  // {
+  //   id: 2,
+  //   title: 'AHS Connect — Marketing Site',
+  //   category: 'web',
+  //   description: 'Clean small business landing page with sticky nav and hero video for local hotel procurement services.',
+  //   tags: ['React', 'Tailwind', 'Vite'],
+  //   image: '/images/projects/hotel-hero.png',
+  //   links: [
+  //     { label: 'Live Site', href: 'https://ahs-connect.com/', type: 'primary' },
+  //     { label: 'Repo', href: 'https://github.com/Zander-M75/AHS' },
+  //   ],
+  // },
   {
     id: 10,
     title: 'SuperStore Analysis & Dashboard',
