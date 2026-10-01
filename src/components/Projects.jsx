@@ -28,6 +28,18 @@ const projectsData = [
     ],
   },
   {
+    id: 14,
+    title: 'Parlay Autopsy',
+    category: 'web',
+    description: 'A joke "autopsy" for a losing sports parlay. You enter your bet slip or upload a screenshot of it. The app then shows the real odds, how much the sportsbook kept as its edge, and which leg sank the bet.',
+    tags: ['Next.js', 'TypeScript', 'Tailwind', 'Claude API', 'Vercel'],
+    image: '/images/projects/parlay-autopsy.png',
+    links: [
+      { label: 'Live Site', href: 'https://parlay-autopsy.vercel.app/', type: 'primary' },
+      { label: 'Methodology', href: 'https://parlay-autopsy.vercel.app/methodology' },
+    ],
+  },
+  {
     id: 12,
     title: 'LinkedIn Bullshit Compiler',
     category: 'web',
@@ -87,18 +99,18 @@ const projectsData = [
       { label: 'View Case Study', href: 'https://tide-comet-ad3.notion.site/Case-Study-Gradr-The-Smart-Way-to-Grade-Cards-291dafd5d4668076b5dcf5792ff5f04b', type: 'primary' },
     ],
   },
-  // {
-  //   id: 2,
-  //   title: 'AHS Connect — Marketing Site',
-  //   category: 'web',
-  //   description: 'Clean small business landing page with sticky nav and hero video for local hotel procurement services.',
-  //   tags: ['React', 'Tailwind', 'Vite'],
-  //   image: '/images/projects/hotel-hero.png',
-  //   links: [
-  //     { label: 'Live Site', href: 'https://ahs-connect.com/', type: 'primary' },
-  //     { label: 'Repo', href: 'https://github.com/Zander-M75/AHS' },
-  //   ],
-  // },
+  {
+    id: 2,
+    title: 'AHS Connect — Static Site',
+    category: 'web',
+    description: 'Clean small business landing page with sticky nav and hero video for local hotel procurement services.',
+    tags: ['React', 'Tailwind', 'Vite'],
+    image: '/images/projects/hotel-hero.png',
+    links: [
+      { label: 'Live Site', href: 'https://ahs-connect.com/', type: 'primary' },
+      { label: 'Repo', href: 'https://github.com/Zander-M75/AHS' },
+    ],
+  },
   {
     id: 10,
     title: 'SuperStore Analysis & Dashboard',
@@ -125,19 +137,19 @@ const projectsData = [
   },
   
   
-  {
-    id: 5,
-    title: 'NBA Draft Analysis',
-    category: 'data',
-    description: 'Interactive dashboard analyzing draft pick value and player performance metrics.',
-    tags: ['Tableau', 'Python', 'Data Analysis'],
-    image: '/images/projects/NBA.webp',
-    status: 'in-progress',
-    links: [
-      // { label: 'View Dashboard', href: '#', type: 'primary' },
-      // { label: 'GitHub', href: '#' },
-    ],
-  },
+  // {
+  //   id: 5,
+  //   title: 'NBA Draft Analysis',
+  //   category: 'data',
+  //   description: 'Interactive dashboard analyzing draft pick value and player performance metrics.',
+  //   tags: ['Tableau', 'Python', 'Data Analysis'],
+  //   image: '/images/projects/NBA.webp',
+  //   status: 'in-progress',
+  //   links: [
+  //     // { label: 'View Dashboard', href: '#', type: 'primary' },
+  //     // { label: 'GitHub', href: '#' },
+  //   ],
+  // },
   {
     id: 9,
     title: 'NFL Spread Market Analysis and Team Performance Modeling',
