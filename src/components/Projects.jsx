@@ -40,8 +40,19 @@ const projectsData = [
     ],
   },
   {
+    id: 15,
+    title: 'Grand Line Atlas',
+    category: 'web',
+    description: "I built Grand Line Atlas for fun because I love One Piece. After 1,000+ episodes, I figured the journey deserved a map. Follow the Straw Hat Pirates from island to island with an animated route, arc highlights, and spoiler controls based on your current episode. If you haven't watched One Piece, give it a try!",
+    tags: ['React', 'TypeScript', 'Leaflet', 'GSAP', 'Vercel'],
+    image: '/images/projects/grand-line-atlas.png',
+    links: [
+      { label: 'Live Site', href: 'https://grandlineatlas.vercel.app/', type: 'primary' },
+    ],
+  },
+  {
     id: 12,
-    title: 'LinkedIn Bullshit Compiler',
+    title: 'LinkedIn B.S. Compiler',
     category: 'web',
     description: 'A satirical web app that "compiles" ordinary accomplishments into over-the-top LinkedIn thought leadership posts, with five intensity levels from Normal to LinkedIn Psychopath, buzzword detection, and cringe analytics.',
     tags: ['React', 'Vite', 'JavaScript', 'Vercel'],
