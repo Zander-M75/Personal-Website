@@ -6,10 +6,10 @@ import { ImageCarousel } from './ImageCarousel';
 
 const quickFacts = [
   { label: 'Location', value: 'NJ' },
-  { label: 'Focus', value: 'Web + Data' },
+  { label: 'Focus', value: 'Agentic Engineering & Financial Analysis' },
   { label: 'Education', value: 'Rutgers University' },
-  { label: 'Currently', value: 'Seeking new career opportunities' },
-  { label: 'Tools', value: 'Whatever the job description says' },
+  { label: 'Currently', value: 'Ai and Finance @ Red Maple Group' },
+  { label: 'Tools', value: 'Whatever it takes' },
   { label: 'Screen Time', value: "Let's not talk about it" },
   { label: 'Rangers Mood', value: 'Cautiously optimistic (every year)' },
   { label: 'Email', value: 'marenberg.zander@gmail.com', link: 'mailto:marenberg.zander@gmail.com' },
