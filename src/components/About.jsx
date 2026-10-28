@@ -6,9 +6,9 @@ import { ImageCarousel } from './ImageCarousel';
 
 const quickFacts = [
   { label: 'Location', value: 'NJ' },
-  { label: 'Focus', value: 'Agentic Engineering & Financial Analysis' },
+  { label: 'Focus', value: 'Doing Cool Stuff' },
   { label: 'Education', value: 'Rutgers University' },
-  { label: 'Currently', value: 'Ai and Finance @ Red Maple Group' },
+  { label: 'Currently', value: 'Analyst @ Red Maple Group' },
   { label: 'Tools', value: 'Whatever it takes' },
   { label: 'Screen Time', value: "Let's not talk about it" },
   { label: 'Rangers Mood', value: 'Cautiously optimistic (every year)' },
