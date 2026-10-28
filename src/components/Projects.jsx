@@ -28,6 +28,17 @@ const projectsData = [
     ],
   },
   {
+    id: 16,
+    title: 'Jets Suffering Index',
+    category: 'data',
+    description: 'Ranks almost 30 years of Jets losses by how much each one hurt, using win-probability swings and how much was riding on the game. A Python pipeline built on nflverse play-by-play data scores every loss, Claude writes the game recaps, and the site updates after every game, because the pain never stops either.',
+    tags: ['Python', 'polars', 'nflverse', 'Claude API', 'Next.js', 'Tailwind', 'GitHub Actions'],
+    image: '/images/projects/jets-suffering-index.png',
+    links: [
+      { label: 'Live Site', href: 'https://jets-suffering-index.vercel.app/', type: 'primary' },
+    ],
+  },
+  {
     id: 14,
     title: 'Parlay Autopsy',
     category: 'web',
@@ -69,7 +80,7 @@ const projectsData = [
     category: 'data',
     description: 'Analyzes cap allocation vs. team success across the Metro Division (2021-2025) to identify optimal roster construction strategies.',
     tags: ['Google Sheets', 'Tableau', 'SQL', 'R', 'Data Viz'],
-    image: '/images/projects/metro.jpg', 
+    image: '/images/projects/metro.png',
     links: [
       { label: 'View Case Study', href: 'https://tide-comet-ad3.notion.site/NHL-Metropolitan-Division-Capstone-Salary-Cap-vs-Success-26bdafd5d4668033af71c70540afb5e8', type: 'primary' },
       
@@ -122,17 +133,17 @@ const projectsData = [
       { label: 'Repo', href: 'https://github.com/Zander-M75/AHS' },
     ],
   },
-  {
-    id: 10,
-    title: 'SuperStore Analysis & Dashboard',
-    category: 'data',
-    description: 'An interactive Tableau project analyzing the Kaggle Superstore dataset to uncover product profitability and regional performance insights.',
-    tags: ['Google Sheets', 'Tableau', 'Business Analysis'],
-    image: '/images/projects/superstore.webp',
-    links: [
-      { label: 'View Project', href: 'https://tide-comet-ad3.notion.site/Superstore-Profitability-Inventory-Insights-29adafd5d4668001890bfd433b1706f7', type: 'primary' },
-    ],
-  },
+  // {
+  //   id: 10,
+  //   title: 'SuperStore Analysis & Dashboard',
+  //   category: 'data',
+  //   description: 'An interactive Tableau project analyzing the Kaggle Superstore dataset to uncover product profitability and regional performance insights.',
+  //   tags: ['Google Sheets', 'Tableau', 'Business Analysis'],
+  //   image: '/images/projects/superstore.webp',
+  //   links: [
+  //     { label: 'View Project', href: 'https://tide-comet-ad3.notion.site/Superstore-Profitability-Inventory-Insights-29adafd5d4668001890bfd433b1706f7', type: 'primary' },
+  //   ],
+  // },
   {
     id: 3,
     title: 'Pane — Client Portal Generator',
@@ -161,19 +172,19 @@ const projectsData = [
   //     // { label: 'GitHub', href: '#' },
   //   ],
   // },
-  {
-    id: 9,
-    title: 'NFL Spread Market Analysis and Team Performance Modeling',
-    category: 'data',
-    description: 'Multi-season NFL analytics project (2020–present) evaluating team performance vs. the Vegas spread by tracking cover rates, margin vs. closing line, and market mispricing trends.',
-    tags: ['Tableau', 'Python', 'R', 'SQL', 'Data Analysis'],
-    image: '/images/projects/NFL.jpeg',
-    status: 'in-progress',
-    links: [
-      // { label: 'View Dashboard', href: '#', type: 'primary' },
-      // { label: 'GitHub', href: '#' },
-    ],
-  },
+  // {
+  //   id: 9,
+  //   title: 'NFL Spread Market Analysis and Team Performance Modeling',
+  //   category: 'data',
+  //   description: 'Multi-season NFL analytics project (2020–present) evaluating team performance vs. the Vegas spread by tracking cover rates, margin vs. closing line, and market mispricing trends.',
+  //   tags: ['Tableau', 'Python', 'R', 'SQL', 'Data Analysis'],
+  //   image: '/images/projects/NFL.jpeg',
+  //   status: 'in-progress',
+  //   links: [
+  //     // { label: 'View Dashboard', href: '#', type: 'primary' },
+  //     // { label: 'GitHub', href: '#' },
+  //   ],
+  // },
   {
     id: 6,
     title: 'Portfolio Website',
