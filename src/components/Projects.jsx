@@ -24,7 +24,6 @@ const projectsData = [
     image: '/images/projects/nhl-totals.png',
     links: [
       { label: 'View Site', href: 'https://sports-trading-blog-site.vercel.app/', type: 'primary' },
-      { label: 'Repo', href: 'https://github.com/Zander-M75/sports-trading-research' },
     ],
   },
   {
