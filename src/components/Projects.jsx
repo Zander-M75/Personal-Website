@@ -17,9 +17,9 @@ const projectsData = [
   },
   {
     id: 11,
-    title: 'Sports Trading Research: NHL First-Period Totals',
+    title: 'Sports Trading Research: NHL & NFL Totals',
     category: 'data',
-    description: 'Quantitative research into NHL first-period totals markets, covering de-vigging methods, model calibration, and closing line value evaluation, with a live odds pipeline running through the season.',
+    description: 'Quantitative research into NHL first-period totals and NFL team and game totals, covering de-vigging methods, model calibration, and closing line value evaluation, with a live odds pipeline running through the season.',
     tags: ['Python', 'pandas', 'SciPy', 'Poisson Models', 'Monte Carlo Simulation', 'Next.js'],
     image: '/images/projects/nhl-totals.png',
     links: [
